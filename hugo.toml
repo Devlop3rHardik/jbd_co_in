@@ -1,0 +1,27 @@
+baseURL = ''
+languageCode = 'en-us'
+title = 'Jay Bholad Na Dada'
+theme = 'PaperMod'
+
+[params.homeInfoParams]
+Title = "JBD "
+Content = "Hello Brother"
+
+
+[[menu.main]]
+  identifier = "categories"
+  name = "Categories"
+  url = "/categories"
+  weight = 1
+
+[[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags"
+  weight = 2
+
+[[menu.main]]
+  identifier = "archives"
+  name = "Archives"
+  url = "/archives"
+  weight = 3
